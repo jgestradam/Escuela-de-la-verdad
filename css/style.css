@@ -49,7 +49,7 @@ section {
 
 .navbar {
   position: fixed;
-  background: transparent;
+  background: var(--purple);
   transition: background 0.3s;
   display: flex;
   justify-content: space-between;
