@@ -16,7 +16,7 @@
 
 a {
   text-decoration: none;
-  color: var(--purple);
+  color: var(--bake);
 }
 
 a:hover {
@@ -64,7 +64,7 @@ section {
 }
 
 .navbar__title {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .navbar__links {
@@ -79,7 +79,7 @@ section {
 }
 
 .navbar__link a {
-  color: var(--purple);
+  color: var(--bake);
   transition: color 0.3s;
 }
 
@@ -93,3 +93,25 @@ section {
   align-items: center;
   font-size: 35px;
 } 
+.home {
+  min-height: 100vh;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background: var(--purple);
+  position: relative;
+}
+
+.home__profile {
+  height: 300px;
+  margin-right: 70px;
+  transition: filter 0.3s;
+}
+
+.home__title {
+  font-size: 30px;
+  color: #f5f5f5;
+  text-justify: flex-start;
+}
+
