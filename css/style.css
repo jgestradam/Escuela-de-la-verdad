@@ -29,7 +29,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  background:var(--bake);
+  /* background:var(--bake); */
   /* color: black; */
 }
 section {
@@ -106,7 +106,6 @@ section {
 .home__profile {
   height: 300px;
   margin-right: 70px;
-  transition: filter 0.3s;
 }
 
 .home__title {
