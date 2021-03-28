@@ -29,7 +29,6 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  /* background:var(--bake); */
   /* color: black; */
 }
 section {
@@ -154,45 +153,22 @@ section {
   background: var(--grey);
   color: white;
 }
-
-/* .about__skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-} */
-
-/* .skill__title {
-  color: var(--grey);
-  grid-column: span 3;
-  text-align: left;
-  margin: 20px 0;
+.about__skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.skill__item {
-  font-size: 65px;
-  color: var(--grey);
-  padding: 35px;
-  transition: all 0.3s;
-  min-width: 130px;
-  height: 180px;
-}
-.fa-html5{
-  color: #e34c26;
+.carousel__container__item{
+  width: 410px;
+  height: 220px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.fa-css3-alt{
-  color: #264de4;
+.carousel__container__item__img{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
 }
 
-.fa-js{
-  color:#f0db4f ;
-}
-
-.fa-git-alt{
-  color: #f34f29;
-}
-
-.skill__name {
-  font-size: 16px;
-  text-align: center;
-} */
