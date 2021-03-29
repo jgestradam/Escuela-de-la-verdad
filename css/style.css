@@ -327,13 +327,13 @@ footer p{
 }
 .between__section{
   padding: 0;
-  padding-bottom: 150px;
+  padding-bottom: 140px;
 }
 .between__img {
   background-image: url(../assets/between.svg);
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 220px;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -344,7 +344,7 @@ footer p{
   background-image: url(../assets/Copia\ de\ Diseño\ sin\ título.svg);
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 220px;
   width: 100%;
   position: absolute;
   z-index: -1;
