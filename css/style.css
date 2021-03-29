@@ -160,8 +160,8 @@ section {
 }
 
 .carousel__container__item{
-  width: 410px;
-  height: 220px;
+  width: 260px;
+  height: 370px;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -172,3 +172,45 @@ section {
   object-fit: cover;
 }
 
+.Rectangle-13 {
+  width: 1440px;
+  height: 281px;
+  margin: 83px 0 77px;
+  background-color: #349ff6;
+}
+
+.horario__description {
+  text-align: left;
+  color: var(--blue);
+  padding-left: 100px;
+  line-height: 40px;
+}
+
+.horario__description h2 {
+  color: var(--purple);
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.button--cta--jovenes {
+  display: flex;
+  justify-self: center;
+  background: var(--purple);
+  color: var(--white);
+  padding: 10px 40px;
+  display: inline-block;
+  align-self: center;
+  margin: 20px auto;
+  margin-left: 10px;
+  font: bold;
+  border-radius: 10px;
+}
+
+.button--cta--jovenes i {
+  margin-right: 10px;
+}
+
+.button--cta--jovenes:hover {
+  background: var(--grey);
+  color: white;
+}
