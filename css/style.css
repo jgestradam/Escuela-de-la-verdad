@@ -333,7 +333,7 @@ footer p{
   background-image: url(../assets/between.svg);
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 200px;
   width: 100%;
   position: absolute;
   z-index: -1;
