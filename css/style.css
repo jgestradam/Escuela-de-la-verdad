@@ -339,3 +339,14 @@ footer p{
   z-index: -1;
   padding: 0;
 }
+
+.between__img--purple {
+  background-image: url(../assets/Copia\ de\ Diseño\ sin\ título.svg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  padding: 0;
+}
