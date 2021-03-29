@@ -325,4 +325,17 @@ footer p{
   margin: auto 0; 
   text-justify: center;
 }
-
+.between__section{
+  padding: 0;
+  padding-bottom: 150px;
+}
+.between__img {
+  background-image: url(../assets/between.svg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  padding: 0;
+}
