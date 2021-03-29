@@ -103,7 +103,7 @@ section {
 }
 
 .home__profile {
-  height: 300px;
+  height: 400px;
   margin-right: 70px;
 }
 
@@ -127,15 +127,37 @@ section {
 }
 
 .about__description h2 {
-  color: var(--purple);
+  color: var(--blue);
   font-size: 40px;
   margin: 20px 0;
+}
+
+.button--cta--zoom {
+  display: flex;
+  justify-self: center;
+  background: var(--blue);
+  color: var(--white);
+  padding: 10px 40px;
+  display: inline-block;
+  align-self: center;
+  margin: 20px auto;
+  font: bold;
+  border-radius: 10px;
+}
+
+.button--cta--zoom i {
+  margin-right: 10px;
+}
+
+.button--cta--zoom:hover {
+  background: var(--grey);
+  color: white;
 }
 
 .button--cta {
   display: flex;
   justify-self: center;
-  background: var(--blue);
+  background: var(--purple);
   color: var(--white);
   padding: 10px 40px;
   display: inline-block;
@@ -187,7 +209,7 @@ section {
 }
 
 .horario__description h2 {
-  color: var(--purple);
+  color: var(--blue);
   font-size: 40px;
   margin: 20px 0;
 }
@@ -195,7 +217,7 @@ section {
 .button--cta--jovenes {
   display: flex;
   justify-self: center;
-  background: var(--purple);
+  background: var(--blue);
   color: var(--white);
   padding: 10px 40px;
   display: inline-block;
