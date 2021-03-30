@@ -17,10 +17,15 @@
 a {
   text-decoration: none;
   color: var(--bake);
+  
 }
 
-a:hover {
+/* a:hover {
   color: var(--blue);
+} */
+
+.navbar__title a span{
+  color: var(--green);
 }
 
 html {
@@ -83,7 +88,7 @@ section {
 }
 
 .navbar__link a:hover {
-  color: var(--blue);
+  color: var(--green);
   transition: color 0.3s;
 }
 
@@ -283,8 +288,9 @@ section {
   display: inline;
   text-align: left;
   color: var(--white);
-  padding-left: 105px;
+  padding-left: 255px;
   line-height: 40px;
+  width: 450px;
 }
 
 
@@ -309,6 +315,9 @@ section {
 
 .button--cta--ayuda:hover {
   background: var(--grey);
+  color: white;
+}
+.ayuda__contacto{
   color: white;
 }
 
